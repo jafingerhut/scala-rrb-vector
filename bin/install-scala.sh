@@ -37,5 +37,10 @@ source ~/.sdkman/bin/sdkman-init.sh
 
 sdk install sbt 0.13.18
 
-# See script build.sh for commands that can be run to clean, then
-# recompile the scala-rrb-vector code.
+echo "If you want to compile the source code of scala-rrb-vector that I"
+echo "believe may have been used to produce the JAR files published on Maven"
+echo "Central, and install a JAR file containing the compiled JVM .class"
+echo "files in your $HOME/.m2 directory, run these commands:"
+echo ""
+echo "    $ cd scala-rrb-vector/core"
+echo "    $ ../bin/build.sh"
