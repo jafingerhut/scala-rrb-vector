@@ -13,7 +13,7 @@
 # and seems not to compile with the latest releases of Scala as of
 # 2019.
 
-sudo apt-get install curl
+sudo apt-get install curl openjdk-8-jdk-headless
 
 # Install SDKMAN first
 curl -s "https://get.sdkman.io" | bash
@@ -36,8 +36,6 @@ source ~/.sdkman/bin/sdkman-init.sh
 # code without errors:
 
 sdk install sbt 0.13.18
-
-git clone https://github.com/nicolasstucki/scala-rrb-vector
 
 # See script build.sh for commands that can be run to clean, then
 # recompile the scala-rrb-vector code.
