@@ -2,7 +2,7 @@ name := "scala-rrb-vector"
 
 version := "0.1.2-SNAPSHOT"
 
-scalaVersion := "2.11.6"
+scalaVersion := "2.11.12"
 
 resolvers += "Sonatype OSS Snapshots" at
   "https://oss.sonatype.org/content/repositories/releases"
