@@ -19,7 +19,10 @@
 # the version of sbt in the file, not the one in your path?  Removing
 # the file seems to help in that case.
 
-\rm project/build.properties
+if [ -e project/build.properties ]
+then
+    \rm project/build.properties
+fi
 sbt clean
 sbt compile
 sbt publishM2
